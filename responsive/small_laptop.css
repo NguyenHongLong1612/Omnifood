@@ -1,0 +1,12 @@
+/*1348px*/
+@media (max-width: 84.25em) {
+    .header {
+        padding: 0 1.6rem;
+    }
+    .gallery {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .testimonial {
+        padding: 4.8rem;
+    }
+}

@@ -1,0 +1,105 @@
+.call-to-action--section {
+    background-color: transparent;
+}
+.call-to-action {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 9.6rem 1.6rem;
+}
+
+.call-to-action--box {
+    width: 100%;
+    background-color: #e67e22;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    border-radius: 1.6rem;
+    overflow: hidden;
+}
+
+.call-to-action--content {
+    grid-column: 1 / span 2;
+    padding: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    gap: 4.8rem;
+}
+
+.call-to-action--content__text {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.call-to-action--content__text-title {
+    font-size: 5.2rem;
+    font-weight: 700;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    color: #2e1907;
+}
+
+.call-to-action--content__text-description {
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    color: #2e1907;
+}
+
+.call-to-action--content-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 3.2rem;
+    row-gap: 2.4rem;
+}
+
+.call-to-action--content-form--item {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-self: end;
+}
+
+.call-to-action--content-form--item:last-child > input:hover {
+    cursor: pointer;
+}
+
+.call-to-action--content-form--item > label {
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.7;
+    letter-spacing: 0.25px;
+    color: #2e1907;
+}
+
+.call-to-action--content-form--item > input,
+.call-to-action--content-form--item > select {
+    border: none;
+    box-sizing: border-box;
+    padding: 1.2rem;
+    border-radius: 1.6rem;
+    background-color: #fae5d3;
+    font-size: 1.8rem;
+}
+
+.call-to-action--content-form--item > select {
+    color: #0a0a0a;
+}
+
+.call-to-action--content-form--item:last-child > input {
+    background-color: #2e1907;
+    color: #fae5d3;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+}
+
+.call-to-action--img {
+    grid-column: 3 / span 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background-image: url('../img/eating.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}

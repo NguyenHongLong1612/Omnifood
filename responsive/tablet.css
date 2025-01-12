@@ -1,0 +1,283 @@
+/*900px*/
+
+@media (max-width: 56.25em) {
+    .how-it-works,
+    .meal,
+    .pricing,
+    .feature-part,
+    .call-to-action {
+        padding: 5.2rem 1.6rem;
+        gap: 5.2rem;
+    }
+
+    .hero {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 9.6rem;
+    }
+
+    .hero--content-box {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .hero--content-text__title {
+        text-align: center;
+    }
+
+    .hero--content-text__description {
+        text-align: center;
+        padding: 0 6.4rem;
+    }
+
+    .hero--img-box {
+        width: 50%;
+    }
+
+    .call-to-action--content-form {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .call-to-action--content-form--item {
+        align-self: stretch;
+        gap: 0;
+    }
+
+    .call-to-action--content-form--item:last-child {
+        margin-top: 2.4rem;
+    }
+
+    .call-to-action--content-form--item:last-child > input {
+        padding: 2.4rem 0;
+    }
+
+    .feature-in {
+        gap: 2.4rem;
+    }
+
+    .feature-in--title {
+        font-size: 1.8rem;
+    }
+
+    .feature-in--logo {
+        justify-content: center;
+        gap: 3rem;
+    }
+
+    .feature-in--logo > div {
+        height: 2.4rem;
+    }
+
+    .title__one {
+        font-size: 1.6rem;
+    }
+
+    .title__two {
+        font-size: 3rem;
+    }
+
+    .how-feature--box--content {
+        gap: 2.4rem;
+    }
+
+    .how-feature--box--content__head {
+        gap: 0.8rem;
+    }
+
+    .how-feature--box--number {
+        font-size: 6.2rem;
+    }
+
+    .how-feature--box--title {
+        font-size: 2.4rem;
+    }
+
+    .how-feature--box--description {
+        font-size: 1.8rem;
+    }
+
+    .footer {
+        gap: 3.2rem;
+    }
+
+    .how--statistic {
+        gap: 6.4rem;
+    }
+
+    .pricing--list {
+        gap: 4.4rem;
+    }
+
+    .pricing--item {
+        padding: 2.4rem;
+        gap: 3.2rem;
+        width: 65%;
+    }
+
+    .pricing--item__head {
+        gap: 1.6rem;
+    }
+
+    .pricing--item__head--name {
+        font-size: 2rem;
+    }
+
+    .pricing--item__head--price {
+        gap: 1.2rem;
+    }
+
+    .pricing--item__head--price > p {
+        font-size: 3.6rem;
+    }
+
+    .pricing--item__head--price > p > span {
+        font-size: 2rem;
+    }
+
+    .pricing--item__head--price > div {
+        font-size: 1.6rem;
+    }
+
+    .pricing--item__option {
+        gap: 1.6rem;
+    }
+
+    .pricing--item__option--item > .icon > svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .option--item__description {
+        font-size: 1.6rem;
+    }
+
+    .pricing--item__btn {
+        padding: 1.6rem 1.6rem;
+        font-size: 1.6rem;
+        width: 85%;
+        align-self: center;
+    }
+
+    .pricing--item:nth-child(2)::before {
+        top: 3.2rem;
+        right: 3.2rem;
+        font-size: 1.2rem;
+    }
+}
+
+/*800px*/
+@media (max-width: 50em) {
+    .how-feature--box {
+        gap: 2.4rem;
+    }
+
+    .how-it-works,
+    .meal,
+    .pricing,
+    .feature-part,
+    .call-to-action {
+        padding: 4.8rem 1.6rem;
+        gap: 4.8rem;
+    }
+
+    .how--statistic {
+        gap: 4.8rem;
+    }
+
+    .meal--item__content {
+        padding: 3.2rem;
+    }
+
+    .meal--item__name {
+        font-size: 2.4rem;
+    }
+
+    .meal--item__info--item > .icon > svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .meal--item__info--item > p {
+        font-size: 1.6rem;
+    }
+
+    .meal--item__diet {
+        gap: 1.6rem;
+    }
+
+    .meal--item__diet--title {
+        font-size: 2.4rem;
+    }
+
+    .meal--item__diet--item > .icon > svg {
+        width: 2.4rem;
+        height: 2.4rem;
+    }
+
+    .pricing--item:nth-child(2)::before {
+        top: 3.2rem;
+        right: 3.2rem;
+        font-size: 1.2rem;
+    }
+
+    .feature-part--list {
+        gap: 1.6rem;
+    }
+
+    .footer--container {
+        gap: 4.8rem;
+    }
+
+    .footer--head__logo {
+        height: 2.4rem;
+    }
+
+    .footer--head__logo > img {
+        height: 100%;
+        width: auto;
+    }
+
+    .footer--head {
+        gap: 1.6rem;
+    }
+
+    .social--item > svg {
+        width: 3rem;
+        height: 3rem;
+    }
+
+    .footer-column {
+        gap: 1.6rem;
+    }
+
+    .footer-column > h3 {
+        font-size: 2rem;
+    }
+
+    .footer-column > p {
+        font-size: 1.4rem;
+    }
+
+    .footer-column > ul {
+        gap: 1.4rem;
+    }
+
+    .footer-column > ul > li > a {
+        font-size: 1.4rem;
+    }
+
+    .footer {
+        gap: 2.4rem;
+    }
+}
+
+/*750px*/
+@media (max-width: 46.875em) {
+    .hero--content-text__title {
+        font-size: 5.2rem;
+    }
+}

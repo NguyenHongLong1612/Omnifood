@@ -1,0 +1,134 @@
+.pricing--section {
+    background-color: white;
+}
+.pricing {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 9.6rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 9.6rem;
+}
+.pricing--title {
+    font-size: 5.2rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    color: #0a0a0a;
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.pricing--title__small {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    color: #e67e22;
+    text-transform: uppercase;
+}
+
+.pricing--list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 6.4rem;
+}
+
+.pricing--item {
+    width: 75%;
+    padding: 4.8rem;
+    display: flex;
+    flex-direction: column;
+    gap: 6.4rem;
+    border-radius: 1.6rem;
+    overflow: hidden;
+    /* box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px; */
+}
+
+.pricing--item:nth-child(1) {
+    justify-self: end;
+    border: 1px solid black;
+    border: 1px solid #fae5d3;
+}
+
+.pricing--item:nth-child(2) {
+    background-color: #fae5d3;
+    position: relative;
+}
+
+.pricing--item:nth-child(2)::before {
+    content: 'Best seller';
+    position: absolute;
+    top: 6.4rem;
+    right: 6.4rem;
+    transform: translateX(50%) rotate(45deg);
+    width: 100%;
+    font-size: 2rem;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+    text-transform: uppercase;
+    background-color: #eab308;
+    text-align: center;
+}
+
+.pricing--item__head {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing--item__head--name {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.7;
+    letter-spacing: 0.5px;
+    color: #e67e22;
+    text-transform: uppercase;
+}
+.pricing--item__head--price {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2.4rem;
+}
+
+.pricing--item__head--price > p {
+    font-size: 5.2rem;
+    font-weight: 700;
+    color: #0a0a0a;
+}
+
+.pricing--item__head--price > p > span {
+    font-size: 3rem;
+    color: #0a0a0a;
+}
+
+.pricing--item__head--price > div {
+    font-size: 2rem;
+    font-weight: 300;
+}
+
+.pricing--item__option {
+    display: flex;
+    flex-direction: column;
+    gap: 3.2rem;
+    font-size: 2rem;
+    color: #0a0a0a;
+    font-weight: 400;
+}
+
+.pricing--item__option--item {
+    display: flex;
+    gap: 1.6rem;
+    align-items: center;
+}
+
+.option--item__description {
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}

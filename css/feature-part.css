@@ -1,0 +1,63 @@
+.section--feature-part {
+    background-color: white;
+}
+.feature-part {
+    max-width: 130rem;
+    margin: 0 auto;
+    padding: 9.6rem 1.6rem;
+    display: flex;
+    flex-direction: column;
+    gap: 9.6rem;
+}
+.feature-part--title {
+    font-size: 2.4rem;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: -0.5px;
+    color: #0a0a0a;
+    text-align: center;
+    gap: 2.4rem;
+}
+
+.feature-part--list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.2rem;
+}
+
+.feature-part--item {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.feature-part--item__icon {
+    width: 6.2rem;
+    height: 6.2rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #fae5d3;
+}
+
+.feature-part--item-text {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+}
+
+.feature-part--item-text > div {
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: #0a0a0a;
+    line-height: 1.2;
+    letter-spacing: 0.25px;
+}
+
+.feature-part--item-text > p {
+    font-size: 1.6rem;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    line-height: 1.7;
+}
